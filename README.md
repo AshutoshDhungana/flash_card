@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# flash_card
-=======
 # RecallMaster - Interactive Flashcard Application
 
 RecallMaster is a modern, feature-rich flashcard application designed to help students and lifelong learners master new skills using scientifically-proven spaced repetition techniques.
@@ -67,4 +64,3 @@ pnpm dev
 ## License
 
 This project is licensed under the MIT License.
->>>>>>> 3282dd0b45c40195c0bafa2aae155821fff02cad
