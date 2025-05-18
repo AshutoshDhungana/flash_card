@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/dashboard(.*)",
+      "dest": "/dashboard$1",
+      "continue": true
+    },
+    {
+      "src": "/decks(.*)",
+      "dest": "/decks$1",
+      "continue": true
+    },
+    {
+      "src": "/analytics(.*)",
+      "dest": "/analytics$1",
+      "continue": true
+    },
+    {
+      "src": "/settings(.*)",
+      "dest": "/settings$1",
+      "continue": true
+    },
+    {
+      "src": "/login",
+      "dest": "/login"
+    },
+    {
+      "src": "/signup",
+      "dest": "/signup"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
